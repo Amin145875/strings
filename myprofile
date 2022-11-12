@@ -1,0 +1,27 @@
+//my user profie
+//
+#include <iostream>
+#include<string>
+using namespace std;
+
+int main()
+{
+    //declare and initialise variable
+  string fulname ="John PUM", Firstname="John", lastname="Pum",
+  favmovie="Avengers", favmeal="beans";
+  
+  // My profile
+  cout<<"..... This is My simple profile as  "<<fulname<<endl;
+  cout<<"\n,\n";
+  cout<<"My firstname is "<<Firstname<<endl;
+  cout<<"My lastname is "<<lastname<<endl;
+
+  // Favourites things
+  
+  cout<<"My favourite meal is "<<favmeal<<endl;
+  cout<<"My favourite movie is "<<favmovie<<endl;
+  cout<<"..................................."<<endl;
+  cout<<".....have a blessed day";
+
+    return 0;
+}
